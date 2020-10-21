@@ -1,3 +1,3 @@
 # I_got_cyberbullied
-Our project for business
-
+Case study 1
+Belozertseva Maria, Raspopova Alexandra, Adristi Fauzi
