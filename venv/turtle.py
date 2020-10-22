@@ -3,4 +3,3 @@
 #               Raspopova S. (%),
 #               Fauzi A. (%)
 import turtle
-turtle.forward(10)
