@@ -1,6 +1,8 @@
 # I_got_cyberbullied
 Case study 1
 Belozertseva Maria, Raspopova Alexandra, Adristi Fauzi
+
+
 import turtle
 
 
@@ -15,9 +17,9 @@ def square(x, y, side, color):
     '''
     turtle.up()
     turtle.setposition(x, y)
-     turtle.begin_fill()
+    turtle.begin_fill()
     turtle.color(color)
-     turtle.fillcolor(color)
+    turtle.fillcolor(color)
     turtle.down()
     turtle.forward(side)
     turtle.right(90)
@@ -37,7 +39,5 @@ def main():
     square(-200, 200, 180, "blue")
  
     turtle.done()
-
-
 if __name__ == '__main__':
     main()
