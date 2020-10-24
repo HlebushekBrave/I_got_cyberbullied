@@ -28,7 +28,6 @@ def square(x, y, side, color):
     turtle.forward(side)
     turtle.left(90)
     turtle.forward(side)
-    turtle.left(90)
     turtle.end_fill()
 
 def main():
