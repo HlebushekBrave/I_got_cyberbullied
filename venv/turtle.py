@@ -110,6 +110,24 @@ def main():
     turtle.right(135)
     triangle(-540, 355, 90, "white", "blue")
     turtle.left(135)
+    
+    
+     #Second figure
+    turtle.right(45)
+    triangle(-150, 600, 120, "white", "red")
+    turtle.left(-90)
+    triangle(-30, 480, 120, "white", "yellow")
+    turtle.left(45)
+    triangle(-28, 550, 90, "white", "blue")
+    turtle.right(45)
+    square(-80, 530, 70, "white", "orange")
+    turtle.right(-90)
+    parallelogram(-251, 542, 90, 60, "white", "green")
+    turtle.right(-90)
+    triangle(-189, 417, 60, "white", "violet")
+    turtle.right(180)
+    triangle(-191,470, 50, "black", "purple3")
+    
     turtle.done()
     turtle.mainloop()
 
