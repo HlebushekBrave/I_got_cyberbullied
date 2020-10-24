@@ -63,6 +63,21 @@ def square(x, y, side, color1, color2):
     turtle.end_fill()
     turtle.penup()
 
+    
+def triangle(x, y, side, angle, color):
+    turtle.up()
+    turtle.goto(x, y)
+    turtle.begin_fill()
+    turtle.color(color, color)
+    turtle.down()
+    turtle.forward(side)
+    turtle.left(angle)
+    turtle.forward(side)
+    turtle.left(angle)
+    turtle.forward(side)
+    turtle.left(angle)
+    turtle.end_fill()
+    turtle.penup()
 
 def main():
 
@@ -73,6 +88,7 @@ def main():
 
     parallelogram(0, 0, 100, 60, "black", "orange")
     square(200, 200, 100, "black", "blue")
+    triangle(0, 0, 100, 120, "blue")
     turtle.done()
     turtle.mainloop()
 
