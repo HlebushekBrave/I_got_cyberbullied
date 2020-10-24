@@ -47,11 +47,11 @@ def square(x, y, side, color1, color2):
     :return: None
     """
 
-    turtle.up()
+    turtle.penup()
     turtle.goto(x, y)
     turtle.begin_fill()
     turtle.color(color1, color2)
-    turtle.down()
+    turtle.pendown()
     turtle.forward(side)
     turtle.left(90)
     turtle.forward(side)
@@ -61,6 +61,7 @@ def square(x, y, side, color1, color2):
     turtle.forward(side)
     turtle.left(90)
     turtle.end_fill()
+    turtle.penup()
 
 
 def main():
