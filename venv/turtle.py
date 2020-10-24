@@ -1,5 +1,5 @@
 import turtle
-turtle.speed(10)
+turtle.speed(20)
 turtle.screensize(1500, 1500)
 turtle.width(2)
 
@@ -110,9 +110,14 @@ def main():
     turtle.right(135)
     triangle(-540, 355, 90, "white", "blue")
     turtle.left(135)
-    
-    
-     #Second figure
+    turtle.left(135)
+    triangle(-480, 265, 60, "white", "purple3")
+    turtle.right(135)
+    turtle.right(90)
+    triangle(-510, 415, 60, "white", "maroon1")
+    turtle.left(90)
+
+# Second figure
     turtle.right(45)
     triangle(-150, 600, 120, "white", "red")
     turtle.left(-90)
@@ -124,13 +129,37 @@ def main():
     turtle.right(-90)
     parallelogram(-251, 542, 90, 60, "white", "green")
     turtle.right(-90)
-    triangle(-189, 417, 60, "white", "violet")
+    triangle(-189, 417, 60, "white", "maroon1")
     turtle.right(180)
-    triangle(-191,470, 50, "black", "purple3")
-    
+    triangle(-191, 470, 50, "white", "purple3")
+    turtle.left(135)
+
+#Forth figure
+    turtle.right(135)
+    square(-540, 200, 60, "white", "orange")
+    turtle.left(135)
+    turtle.left(45)
+    triangle(-570, -5, 120, "white", "red")
+    turtle.right(45)
+    turtle.left(45)
+    parallelogram(-635, -5, 90, 60, "white", "green")
+    turtle.right(45)
+    turtle.right(135)
+    triangle(-540, 25, 120, "white", "yellow")
+    turtle.left(135)
+    turtle.left(45)
+    triangle(-680, -115, 60, "white", "maroon1")
+    turtle.right(45)
+    turtle.right(90)
+    triangle(-540, -35, 90, "white", "blue")
+    turtle.left(90)
+    turtle.left(90)
+    triangle(-540, -195, 60, "white", "purple3")
+    turtle.right(90)
     turtle.done()
     turtle.mainloop()
 
 
 if __name__ == '__main__':
     main()
+    
