@@ -1,16 +1,15 @@
-# Case-study #1
-# Developers:   Belozertseva M. (%),
-#               Raspopova S. (%),
-#               Fauzi A. (%)
-
 import turtle
+turtle.speed(10)
+turtle.screensize(1500, 1500)
+turtle.width(2)
 
 
 def parallelogram(x, y, a, b, color1, color2):
 
     """
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
+    Function, drawing parallelogram.
+    :param x: lower left corner coordinate x
+    :param y: lower left corner coordinate y
     :param a: first side length of a parallelogram
     :param b: second side length of a parallelogram
     :param color1: parallelogram border color
@@ -39,45 +38,56 @@ def square(x, y, side, color1, color2):
 
     """
     Function, drawing square.
-    :param x: upper left corner coordinate x
-    :param y: upper left corner coordinate y
+    :param x: lower left corner coordinate x
+    :param y: lower left corner coordinate y
     :param side: side length of a square
     :param color1: square's border color
     :param color2: square's inner color
     :return: None
     """
 
-    turtle.penup()
-    turtle.goto(x, y)
-    turtle.begin_fill()
-    turtle.color(color1, color2)
-    turtle.pendown()
-    turtle.forward(side)
-    turtle.left(90)
-    turtle.forward(side)
-    turtle.left(90)
-    turtle.forward(side)
-    turtle.left(90)
-    turtle.forward(side)
-    turtle.left(90)
-    turtle.end_fill()
-    turtle.penup()
-
-    
-def triangle(x, y, side, angle, color):
     turtle.up()
     turtle.goto(x, y)
     turtle.begin_fill()
-    turtle.color(color, color)
+    turtle.color(color1, color2)
     turtle.down()
     turtle.forward(side)
-    turtle.left(angle)
+    turtle.left(90)
     turtle.forward(side)
-    turtle.left(angle)
+    turtle.left(90)
     turtle.forward(side)
-    turtle.left(angle)
+    turtle.left(90)
+    turtle.forward(side)
+    turtle.left(90)
+    turtle.end_fill()
+
+
+def triangle(x, y, length, color1, color2):
+
+    """
+    Function, drawing triangle
+    :param x: lower left corner coordinate x
+    :param y: lower left corner coordinate y
+    :param length: side length of a triangle
+    :param color1: triangle border color
+    :param color2: triangle inner color
+    """
+
+    turtle.up()
+    turtle.goto(x, y)
+    turtle.begin_fill()
+    turtle.color(color1, color2)
+    turtle.down()
+    turtle.left(45)
+    turtle.forward(length)
+    turtle.right(90)
+    turtle.forward(length)
+    turtle.right(135)
+    turtle.goto(x, y)
+    turtle.right(180)
     turtle.end_fill()
     turtle.penup()
+
 
 def main():
 
@@ -86,9 +96,20 @@ def main():
     :return: None
     """
 
-    parallelogram(0, 0, 100, 60, "black", "orange")
-    square(200, 200, 100, "black", "blue")
-    triangle(0, 0, 100, 120, "blue")
+#First figure
+    turtle.right(45)
+    parallelogram(-600, 600, 90, 60, "white", "green")
+    turtle.left(45)
+    square(-510, 475, 60, "white", "orange")
+    turtle.right(135)
+    triangle(-510, 505, 120, "white", "red")
+    turtle.left(135)
+    turtle.left(45)
+    triangle(-630, 265, 120, "white", "yellow")
+    turtle.right(45)
+    turtle.right(135)
+    triangle(-540, 355, 90, "white", "blue")
+    turtle.left(135)
     turtle.done()
     turtle.mainloop()
 
