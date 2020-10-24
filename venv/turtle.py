@@ -17,10 +17,9 @@ def square(x, y, side, color):
     :return: None
     '''
     turtle.up()
-    turtle.setposition(x, y)
+    turtle.goto(x, y)
     turtle.begin_fill()
-    turtle.color(color)
-    turtle.fillcolor(color)
+    turtle.color(color, color)
     turtle.down()
     turtle.forward(side)
     turtle.right(90)
@@ -37,7 +36,7 @@ def main():
     Main function.
     :return: None
     '''
-    square(-200, 200, 180, "blue")
+    square(0, 0, 180, "blue")
  
     turtle.done()
 if __name__ == '__main__':
