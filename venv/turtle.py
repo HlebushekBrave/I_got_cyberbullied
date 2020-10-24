@@ -1,5 +1,5 @@
 import turtle
-turtle.speed(20)
+turtle.speed(40)
 turtle.screensize(1500, 1500)
 turtle.width(2)
 
@@ -117,7 +117,7 @@ def main():
     triangle(-510, 415, 60, "white", "maroon1")
     turtle.left(90)
 
-# Second figure
+#Second figure
     turtle.right(45)
     triangle(-150, 600, 120, "white", "red")
     turtle.left(-90)
@@ -191,6 +191,23 @@ def main():
     turtle.right(45)
     parallelogram(-660, -485, 90, 60, "white", "green")
     turtle.left(45)
+
+#Seventh figure
+    turtle.left(90)
+    triangle(-130, -545, 120, "white", "yellow")
+    turtle.right(90)
+    turtle.right(90)
+    triangle(-130, -375, 120, "white", "red")
+    turtle.left(90)
+    parallelogram(-130, -375, 90, 60, "white", "green")
+    triangle(-255, -375, 90, "white", "blue")
+    triangle(-260, -500, 60, "white", "purple3")
+    turtle.left(180)
+    triangle(-215, -460, 60, "white", "maroon1")
+    turtle.right(180)
+    turtle.left(45)
+    square(-325, -485, 60, "white", "orange")
+    turtle.right(45)
     turtle.done()
     turtle.mainloop()
 
