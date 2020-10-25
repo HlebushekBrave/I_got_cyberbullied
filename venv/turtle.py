@@ -208,6 +208,20 @@ def main():
     turtle.left(45)
     square(-325, -485, 60, "white", "orange")
     turtle.right(45)
+    
+    # eighth figure
+    turtle.right(45)
+    square(300, 170, 70, "white", "orange")
+    triangle(231, 121, 120, "white", "red")
+    turtle.right(-90)
+    triangle(350, 0, 120, "white", "yellow")
+    parallelogram(285, -118, 90, 60, "white", "green")
+    turtle.left(90)
+    triangle(440, -88, 90, "white", "blue")
+    turtle.right(-180)
+    triangle(410, -89, 60, "white", "purple3")
+    turtle.right(90)
+    triangle(310, -90, 60, "white", "maroon1")
     turtle.done()
     turtle.mainloop()
 
