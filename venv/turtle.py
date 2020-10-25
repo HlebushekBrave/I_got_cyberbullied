@@ -101,7 +101,7 @@ def main():
     :return: None
     """
 
-#rabbit figure
+    #rabbit figure
     turtle.right(45)
     parallelogram(-600, 600, 90, 60, "white", "green")
     turtle.left(45)
@@ -146,7 +146,7 @@ def main():
     turtle.left(-90)
     triangle(80, 500, 120, "white", "red")
     turtle.left(45)
-    triangle(80, 495, 85, "white", "blue")
+    triangle(80, 500, 85, "white", "blue")
     turtle.left(90)
     parallelogram(130, 360, 90, 60, "white", "green")
     triangle(272, 285, 70, "white", "purple3")
