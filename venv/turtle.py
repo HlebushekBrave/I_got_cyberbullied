@@ -1,3 +1,8 @@
+# Case-study #1
+# Developers:   Belozertseva M. (20%),
+#               Raspopova A. (70%),
+#               Fauzi A. (30%)
+
 import turtle
 turtle.speed(40)
 turtle.screensize(1500, 1500)
