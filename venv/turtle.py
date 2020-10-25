@@ -96,7 +96,7 @@ def main():
     :return: None
     """
 
-#First figure
+#rabbit figure
     turtle.right(45)
     parallelogram(-600, 600, 90, 60, "white", "green")
     turtle.left(45)
@@ -116,8 +116,7 @@ def main():
     turtle.right(90)
     triangle(-510, 415, 60, "white", "maroon1")
     turtle.left(90)
-
-#Second figure
+    # fish figure
     turtle.right(45)
     triangle(-150, 600, 120, "white", "red")
     turtle.left(-90)
@@ -133,7 +132,7 @@ def main():
     turtle.right(180)
     triangle(-191, 470, 50, "white", "purple3")
 
-#Third figure
+    # camel figure
     turtle.right(-135)
     triangle(250, 500, 60, "white", "maroon1")
     square(250, 430, 70, "white", "orange")
@@ -148,7 +147,7 @@ def main():
     triangle(272, 285, 70, "white", "purple3")
     turtle.right(90)
 
-#Forth figure
+    # human1 figure
     turtle.right(135)
     square(-540, 200, 60, "white", "orange")
     turtle.left(135)
@@ -171,7 +170,7 @@ def main():
     triangle(-540, -195, 60, "white", "purple3")
     turtle.right(90)
 
-#Sixth figure
+    # ship figure
     turtle.left(135)
     triangle(-510, -315, 60, "white", "purple3")
     turtle.right(135)
@@ -192,7 +191,7 @@ def main():
     parallelogram(-660, -485, 90, 60, "white", "green")
     turtle.left(45)
 
-#Seventh figure
+    # helicopter figure
     turtle.left(90)
     triangle(-130, -545, 120, "white", "yellow")
     turtle.right(90)
@@ -208,8 +207,9 @@ def main():
     turtle.left(45)
     square(-325, -485, 60, "white", "orange")
     turtle.right(45)
-    
-    # eighth figure
+
+
+    # hhumaan2 figure
     turtle.right(45)
     square(300, 170, 70, "white", "orange")
     triangle(231, 121, 120, "white", "red")
@@ -221,7 +221,25 @@ def main():
     turtle.right(-180)
     triangle(410, -89, 60, "white", "purple3")
     turtle.right(90)
-    triangle(310, -90, 60, "white", "maroon1")
+    triangle(310, -95, 60, "white", "maroon1")
+
+    # rocket figure
+    turtle.left(135)
+    triangle(300, -260, 70, "white", "maroon1")
+    turtle.right(45)
+    triangle(300, -262, 100, "white", "blue")
+    turtle.left(135)
+    turtle.left(180)
+    triangle(300, -265, 134, "white", "yellow")
+    turtle.right(180)
+    triangle(395, -552, 134, "white", "red")
+    turtle.left(45)
+    square(360, -519, 80, "white", "orange")
+    turtle.left(-45)
+    parallelogram(460, -620, 120, 90, "white", "green")
+    turtle.right(-135)
+    turtle.left(45)
+    triangle(247, -520, 75, "white", "purple3")
     turtle.done()
     turtle.mainloop()
 
