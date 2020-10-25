@@ -1,6 +1,6 @@
 # Case-study #1
 # Developers:   Belozertseva M. (20%),
-#               Raspopova A. (70%),
+#               Raspopova A. (60%),
 #               Fauzi A. (30%)
 
 import turtle
