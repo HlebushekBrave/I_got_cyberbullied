@@ -1,7 +1,7 @@
 # Case-study #1
-# Developers:   Belozertseva M. (20%),
+# Developers:   Belozertseva M. (60%),
 #               Raspopova A. (60%),
-#               Fauzi A. (30%)
+#               Fauzi A. (20%)
 
 import turtle
 turtle.speed(40)
